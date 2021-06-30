@@ -4,8 +4,11 @@ Changelog for package ament_index_python
 
 Forthcoming
 -----------
-* Add get_package_share_path method (`#73 <https://github.com/ament/ament_index/issues/73>`_) (`#76 <https://github.com/ament/ament_index/issues/76>`_)
-* Contributors: David V. Lu
+
+* Print warning when get_package_share_directory() does not exist (Fix `#74 <https://github.com/ament/ament_index/issues/74>`_) (`#77 <https://github.com/ament/ament_index/issues/77>`_)
+* Fail lookups on invalid resource names (`#69 <https://github.com/ament/ament_index/issues/69>`_)
+* Add get_package_share_path method (`#73 <https://github.com/ament/ament_index/issues/73>`_)
+* Contributors: David V. Lu, rob-clarke
 
 1.0.6 (2021-05-06)
 ------------------
